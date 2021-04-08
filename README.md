@@ -6,5 +6,5 @@ Contains-
 
 
 
-## Recommended reading-
+## References-
 - https://www.cambridge.org/core/books/principles-of-computational-modelling-in-neuroscience/9E360450B94A386051003D763A287CF0
