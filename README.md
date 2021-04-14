@@ -3,6 +3,7 @@
 Contains- 
 
 1. A simple python implementation of the Hodgkin-Huxley Model (HHM). 
+2. Compartment equation with 5 segments and sealed end.
 
 
 
