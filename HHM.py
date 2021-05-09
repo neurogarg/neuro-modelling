@@ -82,22 +82,23 @@ n_part = x[:, 1]
 m_part = x[:, 2]
 h_part = x[:, 3]
 
-fig, ax = plt.subplots(4, 1)
-ax[0].plot(T, volt, 'r')
-ax[0].set_xlabel("Time")
-ax[0].set_ylabel("V")
 
-ax[1].plot(T, n_part, 'g')
-ax[1].set_xlabel("Time")
-ax[1].set_ylabel("n")
+fig, ax = plt.subplots(2, 2)
+ax[0, 0].plot(T, volt, 'r')
+ax[0, 0].set_xlabel("Time")
+ax[0, 0].set_ylabel("V")
 
-ax[2].plot(T, m_part, 'm')
-ax[2].set_xlabel("Time")
-ax[2].set_ylabel("m")
+ax[0, 1].plot(T, n_part, 'g')
+ax[0, 1].set_xlabel("Time")
+ax[0, 1].set_ylabel("n")
 
-ax[3].plot(T, h_part, 'k')
-ax[3].set_xlabel("Time")
-ax[3].set_ylabel("h")
+ax[1, 0].plot(T, m_part, 'm')
+ax[1, 0].set_xlabel("Time")
+ax[1, 0].set_ylabel("m")
+
+ax[1, 1].plot(T, h_part, 'k')
+ax[1, 1].set_xlabel("Time")
+ax[1, 1].set_ylabel("h")
 
 plt.tight_layout()
 plt.show()
