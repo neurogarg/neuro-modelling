@@ -4,7 +4,8 @@ Contains-
 
 1. A simple python implementation of the Hodgkin-Huxley Model (HHM). 
 2. Compartment equation with 5 segments and sealed end.
-
+3. A simple python implementation of Connor-Stevens Model (CSM) [modified HHM with IA current]
+ 
 
 
 ## References-
